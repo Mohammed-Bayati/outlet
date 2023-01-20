@@ -5,4 +5,50 @@
   margin-top: 5%;
 }
 
+.navbar-brand {
+  color: rgb(255, 255, 255) !important;
+  margin-bottom: 120PX;
+  margin-top: 100px;
+  font-weight: bolder;
+  font: size 100% ;
+  
+  
+}
 
+
+.navbar{
+ min-height: 100vh;
+ width: 400px;
+ display: flex;
+}
+
+.nav-link{
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 1px;
+  
+}
+.nav-item >a{
+  color: aliceblue !important;
+  font-size: larger;
+  padding: 30px;
+}
+#logOut{
+  border-color:rgb(255, 255, 255) ;
+  background-color: rgba(0, 0, 0, 0.175);
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  max-width: 140px;
+  margin-top: 40px;
+}
+#logOut:hover{
+  background-color: aliceblue;
+  color: black;
+}
+.nav-link:hover{
+  
+  background-color: rgba(241, 211, 172, 0.231) !important;
+}
+.nav-link:active{
+  background-color: rgba(241, 211, 172, 0.231) !important;
+}

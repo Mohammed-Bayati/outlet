@@ -1,6 +1,7 @@
 // import { useHistory } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
+
 const Login = () => {
   return (
     <div>
@@ -39,17 +40,19 @@ const Login = () => {
                           class="form-control form-control-lg"
                         />
                       </div>
-                      {/* <Link
-                      to="/Home"
-                      class="btn btn-outline-light btn-lg w-100 mt-4 px-5"
-                      type="submit"
-                    >
-                      Login
-                    </Link> */}
-                    <input className="btn btn-outline-light btn-lg w-100 mt-4 px-5" type={"submit"}  value="login"/>
+                      <Link
+                        required
+                        to="/welcomePage"
+                        class="btn btn-outline-light btn-lg w-100 mt-4 px-5"
+                        type="submit"
+
+                      >
+                        Login
+                      </Link>
+                      {/* <input className="btn btn-outline-light btn-lg w-100 mt-4 px-5" type={"submit"}  value="login"/> */}
                     </form>
 
-                    
+
                   </div>
                 </div>
               </div>
@@ -57,6 +60,7 @@ const Login = () => {
           </div>
         </div>
       </section>
+
     </div>
   );
 };
