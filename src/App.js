@@ -5,6 +5,7 @@ import Login from "../src/components/login";
 import PageN from "../src/pages/pageN";
 import Sidebar from "../src/pages/sidebar";
 import Types from "../src/pages/types";
+import Post from "../src/pages/Post";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/welcomePage" element={<Sidebar/>}>
           <Route path="types" element={<Types/>}/>
+          <Route path="Post" element={<Post/>}/>
+          
         </Route>
         
       </Routes>

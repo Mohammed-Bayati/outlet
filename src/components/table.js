@@ -1,6 +1,4 @@
-import { Outlet } from "react-router-dom";
-import Sidebar from "../pages/sidebar";
-const Types = () => {
+const table = () => {
     return (
         <>
 
@@ -71,4 +69,4 @@ const Types = () => {
 }
 
 
-export default Types;
+export default table;

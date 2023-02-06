@@ -1,3 +1,7 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .form-label {
   color: rgb(255, 255, 255) !important;
   margin-right: 100%;
@@ -19,7 +23,7 @@
 .navbar{
  min-height: 100vh;
  width: 400px;
- display: flex;
+ position: sticky;
 }
 
 .nav-link{
@@ -35,7 +39,8 @@
 }
 #logOut{
   border-color:rgb(255, 255, 255) ;
-  background-color: rgba(0, 0, 0, 0.175);
+  border-width: 3px;
+  background-color: rgba(0, 0, 0, 0.147);
   color: rgb(255, 255, 255);
   font-weight:bold;
   max-width: 140px;
@@ -51,4 +56,37 @@
 }
 .nav-link:active{
   background-color: rgba(241, 211, 172, 0.231) !important;
+}
+
+.typesH{
+  max-width: 2000px !important;
+  margin-top: 100px !important;
+  margin-bottom: 400px ;
+  
+  
+  
+}
+
+.typesB{
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700;
+  text-align: center ;
+  background-color: rgba(6, 6, 55, 0.648);
+  max-width: 100% ;
+  
+  
+  
+}
+
+#btnTB{
+  color: rgb(0, 0, 0);
+  font-weight:700;
+  background-color: rgb(255, 255, 255);
+  font-size:x-small;
+  margin: 1px;
+  border-color: rgba(0, 0, 0, 0.628);
+  border-width: 1.9px;
+}
+#btnTB :hover{
+  background-color: black !important;
 }
